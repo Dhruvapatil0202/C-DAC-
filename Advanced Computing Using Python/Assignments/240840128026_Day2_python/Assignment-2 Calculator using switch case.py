@@ -1,7 +1,7 @@
 
-
 while True:
 
+    
     num1 = int(input("Enter number number: "))
     num2 = int(input("Enter second number: "))
 
@@ -20,6 +20,5 @@ while True:
     quit_resp = input("Do you want to continue? Y/N: ")
     if quit_resp not in "Yy": 
         break
-
 
 
