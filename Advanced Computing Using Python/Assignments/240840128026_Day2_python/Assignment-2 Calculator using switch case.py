@@ -2,6 +2,7 @@
 
 while True:
 
+    
     num1 = int(input("Enter number number: "))
     num2 = int(input("Enter second number: "))
 
