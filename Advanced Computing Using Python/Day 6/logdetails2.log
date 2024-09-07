@@ -1,0 +1,8 @@
+2024-09-07 12:48:26,041 - INFO - greet has begun
+2024-09-07 12:48:26,041 - ERROR - greet has (unsupported operand type(s) for ** or pow(): 'str' and 'int') error
+2024-09-07 12:51:55,255 - INFO - greet has begun
+2024-09-07 12:51:55,256 - ERROR - greet has (unsupported operand type(s) for ** or pow(): 'str' and 'int') error
+2024-09-07 13:51:08,064 - INFO - greet has begun
+2024-09-07 13:51:08,064 - ERROR - greet has (unsupported operand type(s) for ** or pow(): 'str' and 'int') error
+2024-09-07 13:51:09,988 - INFO - greet has begun
+2024-09-07 13:51:09,988 - ERROR - greet has (unsupported operand type(s) for ** or pow(): 'str' and 'int') error
