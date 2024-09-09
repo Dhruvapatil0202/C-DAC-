@@ -1,0 +1,3 @@
+2024-09-08 11:27:12,552 - DEBUG - Execution time for func_exec to get executed is 0.0009999275207519531
+2024-09-08 11:29:09,943 - ERROR - Error (unsupported operand type(s) for ** or pow(): 'str' and 'int') occured in execution of func_exec
+2024-09-08 11:29:09,943 - DEBUG - Execution time for func_exec to get executed is 0.0
