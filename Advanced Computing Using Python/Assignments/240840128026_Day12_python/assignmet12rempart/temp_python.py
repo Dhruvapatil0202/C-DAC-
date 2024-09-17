@@ -4,20 +4,23 @@ class MusicalInstrument:
     def __init__(self, name, type):
         self._name = name
         self._type = type
-        self._is_tuned = True
+        self.__is_tuned = False
 
     def play(self):
         print(f"\nThe {self._name} has been played. ")
 
     def tune(self):
-        self._is_tuned = True
+        if self.__is_tuned: return
+        self.__is_tuned = True
         print(f"\nThe {self._name} has been tuned")
 
     def check_tuning(self):
-        if self._is_tuned:
+        if self.__is_tuned:
             print(f"The {self._name} is Tuned")
+            return True
         else:
             print(f"The {self._name} is Not Tuned")
+            return False
 
     @property
     def name(self):
@@ -61,6 +64,33 @@ class Drum(MusicalInstrument):
     def play(self):
         print(f"The drum {self.name} is getting beaten. ")
 
+def test_instrument(instrument):
+    is_tuned = instrument.check_tuning()
+    if not is_tuned:
+        instrument.tune()
+    instrument.play()
+
 if __name__ == "__main__":
-    pia = Piano('my_pia', 'percussion', 60)
-    pia.play()
+
+    my_Guitar = Guitar('zenith', 'String', 7)
+    my_Guitar.play()
+
+    my_Piano = Piano("Weightless", "keyboard", 80)
+    my_Piano.play()
+
+    my_Drum = Drum("Nightshade", "percussion", "Small")
+    my_Drum.play()
+
+
+    test_instrument(my_Guitar)
+    test_instrument(my_Piano)
+    test_instrument(my_Drum)
+
+    # The code block will raise the Attribute error
+    # as we are accessing the private variable of class
+    # outside of class, (outside of class -> in a function or method
+    #  that does not belong to object)
+
+    print(my_Drum.__is_tuned)
+    my_Drum.__is_tuned = False
+    print(my_Drum.__is_tuned)
