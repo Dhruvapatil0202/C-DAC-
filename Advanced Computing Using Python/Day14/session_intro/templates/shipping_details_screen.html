@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shipment Details</title>
+</head>
+<body>
+
+<form action = "/order_summary" method = "POST">
+
+  <h1>The order for {{quantity}} number of {{product}}</h1>
+
+  <label for = "name"> name: </label>
+  <input type = "text" id = "name" name = "name" required = "true"> <br><br>
+
+  <label for = "address"> address: </label>
+  <input type = "text" id = "address" name = "address" required = "true"> <br><br>
+
+  <label for = "contact_number"> contact_number: </label>
+  <input type = "text" id = "contact_number" name = "contact_number" required = "true"> <br><br>
+
+  <button type = "submit"> Show order summary </button>
+</form>
+
+</body>
+</html>
