@@ -1,0 +1,29 @@
+1. Create Date.java in package com.myproject
+2. Save this file in Folder1
+3. Create Calender.java in package mypack
+4. Save this file in Folder2
+5. Compile Date.java using -d . option
+6. Compile Calender.java using -d .option
+7. Set the classpath for folder1
+set classpath = ../../Folder;
+8. Run The Calender app >java mypack.Calender
+
+
+# ____________________________________________________________________
+
+1. Create Date.java in Folder1
+2. Date.java should have package com.myproject
+3. Create Calender.java in Folder2
+4. Calender.java should have package mypack
+5. compile Dae.java using -d . option
+    Folder1 > javac -d . Date.java
+    [Date.class will be created in Folder1\com\myproject]
+
+6. compile Calnder.java using -d . option
+    Folder2 > javac -d . Calender.java
+    [Calender.class will be created in Folder2\mypack]
+
+7. Set the classpath for folder1
+    set classpath = ../../folder1;
+
+8. Run the Calender app >java mypack.Calender
