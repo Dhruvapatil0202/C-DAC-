@@ -1,0 +1,18 @@
+For a Toy manufacturing company, create an app to perform basic operation on the stock
+
+Toy:
+1. product id
+2. name
+3. prie
+4. age - (to present age apporpriate toys)
+5. purchasae month, year
+
+Tasks:
+1. List the Stock
+2. Filter the stock by cataegory [e.g. Educational / Battery operated etc.]
+3. Search toy in the list by using BinarySearch (with prod id as key)
+4. List Toys by price range
+5. List toys for a specific age
+6. Sort the toys by price, rating, prodid
+7. Make the List of old stock (older than 1 year)
+8. Make a group of toys as per their category.
