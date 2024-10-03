@@ -1,0 +1,8 @@
+for a list of fruits: {"Mango", "Orange", "Grampes", "apple", "Banana", "Strawberry", "Watermelon"}
+
+1. create list of fruts in Uppercase and lowercase
+2. create a list of fruits less than "n" in ascending order
+3. create a list of fruits less than "n" in descending order
+4. create a list of fruits with uppercase names
+5. create a list of fruits with 5 alphabets or less in descending order
+
