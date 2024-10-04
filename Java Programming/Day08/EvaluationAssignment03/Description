@@ -1,0 +1,37 @@
+For a Toy manufacturnig company, create an app to perform basic operation on the stock
+
+The Toy data has
+1. product_id
+2. name
+3. price
+4. Category
+5. age [to present age appropriate toys]
+6. purchase month, year
+
+Tasks.
+
+1. List the stock
+2. filter the stock by category [educational, Battery operated]
+3. List Toy by price range (eg. Between 500 to 1000)
+4. Sort the toys by price - category wise
+5. make the list of old stock [older than 1 year]
+6. make a group of toys as per their ategory, count them
+7. display the most expensive / ELeast expensive toy in given category
+8. Print total no of toys in stock for each age grp
+
+____________________________________________________________________________________________________
+
+Perform following operations for twetter website
+A tweet should have
+1. subject
+2. date of post
+3. no of views
+4. Set of hashtags
+
+Tasks.
+
+1. List all the tweets that are posted in current month
+2. List all the tweets for a hashtag
+3. count the tweets by Subject
+4. List tweets that got more than 10k views
+5. Print the top 5 trending tweets
