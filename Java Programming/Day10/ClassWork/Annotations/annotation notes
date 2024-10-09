@@ -1,0 +1,6 @@
+-> used for generating meta data
+-> @interface allows us to create annotation
+1. marker annotation
+2. single value annotation
+3. multivalue annotation
+->
