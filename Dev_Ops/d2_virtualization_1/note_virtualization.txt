@@ -1,0 +1,4 @@
+Virtualization -> A process which simulates a physical resource.
+
+purpose of virtualization -> To share the resources effectively
+
