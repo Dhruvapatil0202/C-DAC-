@@ -1,0 +1,114 @@
+
+docker Images
+
+docker build -t image_name => building the image 
+
+docker build -t image_name . -no-cache => without cache
+
+list of all local images
+docker images
+
+delete an image
+docker rmi image_name
+
+delete unused images
+docker image prune
+
+
+## Docker HUB
+
+1. logging in docker
+docker login -u username
+
+2. publish image on docker hub
+docker push username/image_name
+
+3. search hub for an image
+docker search image_name
+
+4. pull image from docker hub
+docker pull image_name
+
+## General docker commands
+
+1. start docker daemon
+docker -d 
+
+2. get docker help
+docker --help
+
+3. display system wide info
+docker info
+
+
+## Containers 
+1. all containers 
+docker ps -all
+
+2. list of running contianers
+docker ps
+
+3. run continer from image with custom name:
+docker run --name container_name image_name
+
+4. start of stop container
+docker start | stop container_name
+
+5. remove stopped container
+docker rm container_name
+
+6. open shell inside running container 
+docker exec -it container_name sh
+
+7. fetch logs of container
+docker logs -f container_name
+
+8. to inspect a running container
+docker inspect container_name
+
+9. resoruces usage stats
+docker contaienr stats
+
+
+## Kubernetes
+
+1. Start minikube cluster
+minikube start
+
+2. check minikube
+minikube status
+
+3. list of minikube services
+minikube service list
+
+4. Cluster info of kubectl
+kubectl cluster-info
+
+5. deploying of nginx application on minikube
+kubectl run firstapp --image=nginx --port=80
+
+6. Create service for pod
+kubectl expose deployment firstapp --type=NodePort
+
+7. See all kubectl pods
+kubectl get pods
+
+8. See all kubectl services
+kubectl get services
+
+9. find nodeip with minikube ip
+minikube ip
+
+10. Access minikube dashboard
+minikube dashboard
+
+11. Delete service and deployment
+kubectl delete service firstapp
+kubectl delete deployment firstapp
+
+12. Stop minikube cluster
+minikube stop
+
+13. Delete minikube cluster
+minikube delete
+
